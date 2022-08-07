@@ -1,0 +1,65 @@
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; }
+  .MainPage_configPanel {
+    display: flex;
+    justify-content: center;
+    width: 50%; }
+    .MainPage_configPanel_select {
+      width: 25%;
+      height: 30px; }
+    .MainPage_configPanel_button-active {
+      width: 15%;
+      height: 2.3rem;
+      margin-left: 5px;
+      background-color: #455d7a;
+      border: none;
+      border-radius: 5px; }
+    .MainPage_configPanel_button-disable {
+      width: 15%;
+      height: 2.3rem;
+      margin-left: 5px;
+      background-color: #f95959;
+      border: none;
+      border-radius: 5px; }
+  .MainPage_contentField {
+    margin-top: 10px; }
+    .MainPage_contentField_flexRaw {
+      display: flex; }
+  .MainPage_square-info {
+    position: absolute;
+    top: 50px;
+    right: 300px; }
+    .MainPage_square-info_block {
+      width: 200px;
+      height: 30px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      background-color: #fdffcd;
+      transform: translateX(150%);
+      animation: ani 1s forwards; }
+@keyframes ani {
+  0% {
+    transform: translateX(150%); }
+  100% {
+    transform: translateY(0); } }
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black; }
+  .square_active {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #455d7a; }
+
+.square-mode {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white; }
+
+/*# sourceMappingURL=styles.css.map */
